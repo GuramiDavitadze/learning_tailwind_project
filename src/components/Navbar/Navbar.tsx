@@ -10,6 +10,7 @@ const Navbar = () => {
         <a href="#hero" className="hover:text-indigo-600 transition">
           Home
         </a>
+
         <a href="#projects" className="hover:text-indigo-600 transition">
           Projects
         </a>
