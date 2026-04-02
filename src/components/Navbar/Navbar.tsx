@@ -34,9 +34,8 @@ const Navbar = () => {
           )}
         </button>
         <div
-          className={`${isOpen ? "flex" : "hidden"} md:hidden items-center grow justify-between absolute top-16 left-0 flex-col bg-white w-full`}
+          className={`${isOpen ? "flex" : "hidden"} w-full md:hidden items-center grow justify-between absolute top-16 left-0 flex-col bg-white`}
         >
-          <div className="hidden md:block"></div>
           <div className="flex flex-col gap-10 w-[90%]">
             <div className="w-full bg-black bg-slate-300  h-[1px]"></div>
             <a href="#" onClick={() => setIsOpen(!isOpen)}>
@@ -55,10 +54,12 @@ const Navbar = () => {
               Contact Us
             </a>
           </div>
-          <button className="flex items-center mt-10 px-2 py-2 rounded-full bg-[#485C11] text-white cursor-pointer">
-            <span>Learn More</span>
-            <MdArrowOutward className="text-xs color-white" />
-          </button>
+          <div className="w-[90%] mt-10">
+            <button className="flex items-center px-2 py-2 rounded-full bg-[#485C11] text-white cursor-pointer">
+              <span>Learn More</span>
+              <MdArrowOutward className="text-xs color-white" />
+            </button>
+          </div>
         </div>
       </div>
     </nav>
