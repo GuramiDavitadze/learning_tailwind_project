@@ -36,19 +36,19 @@ const Navbar = () => {
           className={`${isOpen ? "flex" : "hidden"} z-100 pb-10 w-full md:hidden items-center grow justify-between absolute top-16 left-0 flex-col bg-white`}
         >
           <div className="flex flex-col gap-10 w-[90%]">
-            <div className="w-full bg-black bg-slate-300  h-[1px]"></div>
+            <div className="w-full bg-slate-300  h-px"></div>
             <a href="#" onClick={() => setIsOpen(!isOpen)}>
               Benefits
             </a>
-            <div className="w-full bg-black bg-slate-300  h-[1px]"></div>
+            <div className="w-full  bg-slate-300  h-px"></div>
             <a href="#" onClick={() => setIsOpen(!isOpen)}>
               Specifications
             </a>
-            <div className="w-full bg-black bg-slate-300  h-[1px]"></div>
+            <div className="w-full  bg-slate-300  h-px"></div>
             <a href="#" onClick={() => setIsOpen(!isOpen)}>
               How-to
             </a>
-            <div className="w-full bg-black bg-slate-300  h-[1px]"></div>
+            <div className="w-full  bg-slate-300  h-px"></div>
             <a href="#" onClick={() => setIsOpen(!isOpen)}>
               Contact Us
             </a>

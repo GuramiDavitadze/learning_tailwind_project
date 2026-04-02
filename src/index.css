@@ -3,3 +3,8 @@ html {
   scroll-behavior: smooth;
   scrollbar-gutter: stable;
 }
+
+@theme {
+  --breakpoint-tab: 800px;
+  --breakpoint-desktop: 1275px;
+}

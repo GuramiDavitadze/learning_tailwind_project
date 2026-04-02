@@ -10,7 +10,7 @@ const Banner = () => {
         <div className="w-full bg-[#8E9C78] h-[80%] rounded-4xl absolute bottom-0"></div>
         <img
           src={phone_img}
-          className="mx-auto w-[80%] max-w-[400px] z-10 relative md:hidden"
+          className="mx-auto w-[80%] max-w-100 z-10 relative md:hidden"
         />
         <img
           src={ipad_img}
